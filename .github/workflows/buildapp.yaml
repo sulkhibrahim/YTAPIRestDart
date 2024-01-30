@@ -47,5 +47,5 @@ jobs:
           path: bin-windows
       - uses: softprops/action-gh-release@v1
         with:
-          draft: true
+          draft: false
           files: bin-*/*
