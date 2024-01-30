@@ -15,6 +15,6 @@ Future<HttpServer> run(Handler handler, InternetAddress ip, int port) {
   |___|   |___|   |__| |__|___|   |___| 
 v1.1
 """;
-  print(tags + '\nby Agus Ibrahim\nhttps://github.com/agusibrahim\n');
+  print(tags + '\nby Agus Ibrahim\nhttps://github.com/agusibrahim/YTAPIRestDart\n');
   return serve(handler, ip, PORT);
 }
