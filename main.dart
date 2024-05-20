@@ -13,7 +13,7 @@ Future<HttpServer> run(Handler handler, InternetAddress ip, int port) {
 |_     _| |   |   |       |    ___|   | 
   |   |   |   |   |   _   |   |   |   | 
   |___|   |___|   |__| |__|___|   |___| 
-v1.1
+v1.1.1
 """;
   print(tags + '\nby Agus Ibrahim\nhttps://github.com/agusibrahim/YTAPIRestDart\n');
   return serve(handler, ip, PORT);

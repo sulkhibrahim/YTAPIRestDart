@@ -1,5 +1,5 @@
 name: ytapirest
-description: An new Dart Frog application
+description: YouTube downloader with REST API 
 version: 1.0.0+1
 publish_to: none
 
